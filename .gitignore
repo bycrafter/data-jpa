@@ -1,0 +1,49 @@
+# Compiled source code and other binary files
+*.class
+*.jar
+*.war
+*.ear
+
+# IntelliJ IDEA specific files and folders
+.idea/
+*.iml
+out/
+
+# Logs and build results
+/logs/
+/target/
+/build/
+
+# Lombok configuration
+.lombok/
+
+# Maven specific files
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+**/mvnw
+**/mvnw.cmd
+
+# Gradle specific files
+.gradle/
+/build/
+
+# Settings
+*.classpath
+*.project
+
+# Local environment settings
+*.env
+*.properties.local
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+*.swp
+
+# IDE / Editor specific files
+.vscode/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
