@@ -25,6 +25,4 @@ public class BaseEntity implements Serializable {
     private LocalDateTime updatedAt;
     @CreationTimestamp
     private LocalDateTime createdAt;
-    private String createUserId;
-    private String updateUserId;
 }
