@@ -17,7 +17,7 @@ import java.time.LocalDateTime;
 @MappedSuperclass
 public class BaseEntity implements Serializable {
     @Id
-    @Column(name = "id")
+    @Column(name = "id", length = 36)
     @UuidGenerator
     private String id;
     @Column(name = "updated_at")
